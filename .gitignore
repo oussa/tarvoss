@@ -1,0 +1,10 @@
+# Build artifacts
+/extension/dist
+
+# IDE
+/.idea
+
+# Other files.
+/yarn.lock
+/yarn-error.log
+node_modules

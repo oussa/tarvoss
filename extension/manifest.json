@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "DeepL",
+  "version": "0.1",
+
+  "description": "The world's best machine translation",
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    },
+    "default_title": "DeepL",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://*.deepl.com/"
+  ]
+}
