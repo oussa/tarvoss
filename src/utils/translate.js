@@ -20,6 +20,28 @@ const body = (textToTranslate) => `{
 	},
 	"id": 2
 }`
+/*JSON.stringify(
+  {
+    jsonrpc: '2.0',
+    method: 'LMT_handle_jobs',
+    params: {
+      jobs: [
+        {
+          kind: 'default',
+          raw_en_sentence: textToTranslate
+        }
+      ],
+      lang: {
+        user_preferred_langs: [
+          'DE'
+        ],
+        source_lang_user_selected: 'auto',
+        target_lang: 'EN'
+      },
+      priority: -1
+    },
+    id: 2
+  })*/
 
 const parseTranslationsFromAPIAnswer = (res) => {
   let translations = []
